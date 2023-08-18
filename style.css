@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+}
+.item{
+    width: 80%;
+    height: 70px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+button{
+    padding: 0 4px;
+}
+.resultado{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+}
+input{
+    width: 50px;
+}
